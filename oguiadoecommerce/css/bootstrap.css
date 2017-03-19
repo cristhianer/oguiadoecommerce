@@ -8157,7 +8157,7 @@ button.close {
 .ebookBanner{
     padding-bottom: 100px;
     padding-top: 100px;
-    background-image: url("../images/comercio-eletronico.jpg");
+    /*background-image: url("../images/comercio-eletronico.jpg");*/
      background-repeat: no-repeat;
      background-size: cover;
    
