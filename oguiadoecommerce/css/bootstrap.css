@@ -8167,10 +8167,12 @@ button.close {
   border: 1px solid gray;
   /*border-radius: 5px;*/
   color: white;
-  padding: 20px;
+  padding: 40px 20px 40px 20px;
+
   -webkit-box-shadow: 10px 10px 80px 0px rgba(0,0,0,0.69);
   -moz-box-shadow: 10px 10px 80px 0px rgba(0,0,0,0.69);
   box-shadow: 10px 10px 80px 0px rgba(0,0,0,0.69);
+  margin-bottom: 20px;
 }
 .ladingTitle{
   text-align: center;
@@ -8180,7 +8182,7 @@ button.close {
 .centralized{
   display: block;
   margin-left: auto; margin-right: auto;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .ebookBanner h3{
   padding-bottom: 20px;
@@ -8190,4 +8192,8 @@ button.close {
 .ebookImg{
   width: 70%;
   margin-left: auto; margin-right: auto;
+}
+
+.txt-pr{
+  text-align: center;
 }
