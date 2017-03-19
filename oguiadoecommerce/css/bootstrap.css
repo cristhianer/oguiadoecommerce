@@ -2732,6 +2732,9 @@ ol li a {
   margin-top: 10px;
 }
 /*================    Term list     =================*/
+.terms-list{
+  text-align: justify; 
+}
 .terms-list dt {
   font-weight: 400;
   color: #21c2f8;
