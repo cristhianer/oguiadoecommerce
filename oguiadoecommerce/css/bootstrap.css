@@ -8151,3 +8151,10 @@ button.close {
     display: none !important;
   }
 }
+
+/*LOGO */
+.logo_ecommerce{
+  padding-top: 10px;
+  height: 165px;
+  width: 300px;
+}
