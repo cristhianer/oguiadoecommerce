@@ -1,14 +1,14 @@
 <?php
-	$owner_email='#'; 
+	$owner_email = $_POST["owner_email"];
 	//SMTP server settings	
-	$host = '';
+	$host = 'br846.hostgator.com.br';
     $port = '465';//"587";
-    $username = ''; 
-    $password = '';
+    $username = 'contato@oguiadoecommerce.com.br'; 
+    $password = 'gama05';
 
     $subject='A message from your site visitor ';
-    $user_email='';    
-	$message_body='';
+    $user_email='contato@oguiadoecommerce.com.br';    
+	$message_body='oi';
 	$message_type='html';
 
 	$max_file_size=50;//MB 
@@ -77,7 +77,7 @@ try{
 		}
 
 		$m->Send();
-	}	
+	}
 
 	die('success'); 
 	

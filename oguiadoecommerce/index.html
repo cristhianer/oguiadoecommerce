@@ -7,18 +7,31 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title>PROJECTS</title>
+    <title>O GUIA DO E-COMMERCE</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Links -->
+    <link rel="stylesheet" href="css/camera.css">
     <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/google-map.css">
+    <style>
+    #rotator img { position: absolute; }
+    </style>
 
     <!--JS-->
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/rd-smoothscroll.min.js"></script>
+    <script type="text/javascript" src="js/rotate.js"></script>
+    <script type="text/javascript">
+      $(window).load(function() {
+        startRotator("#rotator");
+      })
+    </script>
 
 
     <!--[if lt IE 9]>
@@ -39,58 +52,25 @@
   =========================================================-->
     <header>  
       <div class="container top-sect">
-        <div class="navbar-header">
-          <img src="images/logo.jpg" class="img-responsive" alt="O guia do Ecommerce - Logo">
-        </div>
-
-        <div class="help-box text-right">
-          <p>Need help?</p>
-          <a href="callto:#">800-2345-6789</a>
-          <small><span>Hours:</span>  6am-4pm PST M-Th; &nbsp;6am-3pm PST Fri</small>
+        <div> 
+          <a href="index.html"><img src="images/logo_guia_do_e_commerce.png" height="165" width="300"/></a>
+            <div class="help-box text-right">
+            </div>
         </div>
       </div>
 
 
       <div id="stuck_container" class="stuck_container">
         <div class="container">   
-        <nav class="navbar navbar-default navbar-static-top pull-left">
+        <nav class="navbar navbar-default navbar-static-top pull-left">            
 
             <div class="">  
               <ul class="nav navbar-nav sf-menu" data-type="navbar">
-                <li>
-                  <a href="./">HOME</a>
-                </li>
-                <li>
-                  <a href="index-1.html">ABOUT</a>
-                </li>
-                <li class="dropdown">
-                  <a href="index-2.html">SERVICES<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Lorem ipsum</a>
-                    </li>
-                    <li>
-                      <a href="#">Dolor sit amet  </a>                      
-                    </li>
-                    <li>
-                      <a href="#">Conse ctetur </a>
-                        <ul class="dropdown-menu">
-                          <li>
-                            <a href="#">Latest</a>
-                          </li>
-                          <li>
-                            <a href="#">Archive</a>
-                          </li>                      
-                        </ul>
-                    </li>
-                  </ul>
-                </li>                
                 <li class="active">
-                  <a href="index-3.html">PROJECTS</a>
-                </li>
-                
+                  <a href="index.html">HOME</a>
+                </li>              
                 <li>
-                  <a href="index-4.html">CONTACTS</a>
+                  <a href="contato.php">CONTATO</a>
                 </li>
               </ul>                           
             </div>
@@ -102,101 +82,54 @@
           </label>
           <button class="search-form_submit fa-search" type="submit"></button>
         </form>
+             
         </div>
 
       </div>  
     </header>
+
   <!--========================================================
                             CONTENT
   =========================================================-->
-
     <main>        
-
-      <section class="well well4">
-        
-        <div class="container center991">
-          <h2>
-            Guia do Ecommerce 
-          </h2>
-        
-          <div class="row">
-            <div class="col-md-4 col-sm-12 col-xs-12">
-              <div class="thumbnail thumb-shadow">
-                <img src="images/page-4_img3.jpg" alt="">
-                <div class="caption bg3 capt_hover1">
-                  <h3>
-                    Elementum 
-                  </h3>
-                  <div class="wrap">
-                    <p>
-                      Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
-                    </p>
-                    <a href="#" class="btn-link fa-angle-right"></a>
-                  </div>  
-                </div> <!-- .caption -->
-              </div> <!-- shadow -->             
-            </div> <!-- .col-md -->
-            <div class="col-md-4 col-sm-12 col-xs-12">
-              <div class="thumbnail thumb-shadow">
-                <img src="images/page-4_img4.jpg" alt="">
-                <div class="caption bg3 capt_hover1">
-                  <h3>
-                    altum 
-                  </h3>
-                  <div class="wrap">
-                    <p>
-                      Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
-                    </p>
-                    <a href="#" class="btn-link fa-angle-right"></a>
-                  </div>  
-                </div>
-              </div>              
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-              <div class="thumbnail thumb-shadow">
-                <img src="images/page-4_img5.jpg" alt="">
-                <div class="caption bg3 capt_hover1">
-                  <h3>
-                    Adipiscing
-                  </h3>
-                  <div class="wrap">
-                    <p>
-                      Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
-                    </p>
-                    <a href="#" class="btn-link fa-angle-right"></a>
-                  </div>  
-                </div>
-              </div>              
-            </div>
+      <section class="well well1 well1_ins1">
+        <div class="camera_container">
+          <div id="rotator">
+              <img height="54" src="images/page-1_slide1.jpg" width="" />
+              <img height="55" src="images/page-1_slide2.jpg" width="" />
+              <img height="69" src="images/page-1_slide3.jpg" width="" />
           </div>
+          </div>
+        </div>
 
+        <div class="container center991">
           <div class="row">
             <div class="col-md-4 col-sm-12 col-xs-12">
               <div class="thumbnail thumb-shadow">
-                <img src="images/page-4_img6.jpg" alt="">
-                <div class="caption bg3 capt_hover1">
+                <a href="as-grandes-vantagens-de-se-ter-um-ecommerce.html"><img src="images/page-1_img1.jpg" alt=""></a>
+                <div class="caption bg2">
                   <h3>
-                    Sit amet
+                    E-commerce e suas vantagens
                   </h3>
                   <div class="wrap">
                     <p>
-                      Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+                      Confira as grandes vantagens de se ter um e-commerce.
                     </p>
-                    <a href="#" class="btn-link fa-angle-right"></a>
+                    <a href="as-grandes-vantagens-de-se-ter-um-ecommerce.html" class="btn-link fa-angle-right"></a>
                   </div>  
                 </div>
               </div>              
             </div>
             <div class="col-md-8 col-sm-12 col-xs-12">
               <div class="thumbnail thumb-shadow">
-                <img src="images/page-4_img7.jpg" alt="">
-                <div class="caption bg3 capt_hover1">
+                <img src="images/page-1_img2.jpg" alt="">
+                <div class="caption bg3">
                   <h3>
-                    sectetuer 
+                    Sua loja virtual segura!
                   </h3>
                   <div class="wrap">
                     <p class="thumb_ins1">
-                      Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+                      Previna fraudes com dicas simples e rápidas.
                     </p>
                     <a href="#" class="btn-link fa-angle-right"></a>
                   </div>  
@@ -204,32 +137,99 @@
               </div> 
             </div>
           </div>
-        </div> 
 
+          <div class="row wow fadeIn" data-wow-duration='2s'>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="thumbnail thumb-shadow">
+                <img src="images/page-1_img3.jpg" alt="">
+                <div class="caption bg3">
+                  <h3>
+                    Expertise
+                  </h3>
+                  <div class="wrap">
+                    <p>
+                      Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+                    </p>
+                    <a href="#" class="btn-link fa-angle-right"></a>
+                  </div>  
+                </div>
+              </div>              
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="thumbnail thumb-shadow">
+                <img src="images/page-1_img4.jpg" alt="">
+                <div class="caption bg-primary">
+                  <h3>
+                    RESOURCES
+                  </h3>
+                  <div class="wrap">
+                    <p>
+                      Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+                    </p>
+                    <a href="#" class="btn-link fa-angle-right"></a>
+                  </div>  
+                </div>
+              </div>              
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="thumbnail thumb-shadow">
+                <img src="images/page-1_img5.jpg" alt="">
+                <div class="caption bg2">
+                  <h3>
+                    RESEARCH
+                  </h3>
+                  <div class="wrap">
+                    <p>
+                      Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.
+                    </p>
+                    <a href="#" class="btn-link fa-angle-right"></a>
+                  </div>  
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>        
       </section>
       
-      <section class="well well2 bg1">
+      <section class="well well2 wow fadeIn  bg1" data-wow-duration='3s'>
         <div class="container">
-        <h2>
-        special
+        <h2 class="txt-pr">
+        O Guia do 
           <small>
-            offer
+            E-commerce
           </small>
         </h2>
-          <div class="row offs1">
+          <div class="row">
             <div class="col-md-6 col-sm-12">
               <p>
-                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Somos um portal de conteúdo especializado em e-commerce. Nosso principal objetivo é guiá-lo para que você aproveite ao máximo sua loja virtual, seja para te ajudar a escolher a melhor plataforma para seu comércio eletrônico até como fidelizar os seus clientes.
+Aqui você encontra notícias, artigos, ebooks, videos, entre outros.
               </p>
             </div>
             <div class="col-md-6 col-sm-12">
               <p>
-                Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                <a href="#" class="btn-link l-h1 fa-angle-right"></a>
               </p>
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="well well3 parallax" data-url="images/parallax1.jpg" data-mobile="
+      true" data-speed="0.9">
+        <div class="container">
+          <div class="wrap text-center">
+            <strong>
+              E-commerce brasileiro<br />
+              cresceu 18%
+              <small>
+                e faturou R$ 56,8 bilhões em 2016
+              </small>
+            </strong>
+            <p>
+            </p>
+            <a href="#" class="btn btn-primary">Leia Mais <span class="fa-angle-right"></span></a>
+          </div>  
+        </div>        
       </section>
 
     </main>
@@ -237,27 +237,35 @@
     <!--========================================================
                             FOOTER
   =========================================================-->
-  <footer>
-   <section class="well1">
+  <footer class="top-border">
+
+    <section class="well1">
       <div class="container"> 
             <p class="rights">
-              Business Company &#169; <span id="copyright-year"></span>
-              <a href="index-5.html">Privacy Policy</a>
-            </p>          
+              O guiado E-commerce  &#169; <span id="copyright-year"></span>
+              <a href="index-5.html">Todos os direitos reservados</a>
+            </p>           
       </div> 
     </section>    
   </footer>
   </div>
 
 
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->         
     <script src="js/bootstrap.min.js"></script>
     <script src="js/tm-scripts.js"></script>    
-    <script src="js/blog.js"></script>
   <!-- </script> -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-89665197-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
   </body>
 </html>

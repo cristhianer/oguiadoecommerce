@@ -1,0 +1,6 @@
+[user]
+	name = Cristhiane T Resende
+	email = cris_t_resende@hotmail.com
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\CRIS\\Documents\\gitignore_global.txt

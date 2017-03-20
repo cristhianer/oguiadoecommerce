@@ -1,0 +1,7 @@
+[19-Mar-2017 15:11:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hesle203/public_html/oguiadoecommerce.com.br/bat/MailHandler.php on line 54
+[19-Mar-2017 15:13:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hesle203/public_html/oguiadoecommerce.com.br/bat/MailHandler.php on line 54
+[19-Mar-2017 15:21:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hesle203/public_html/oguiadoecommerce.com.br/bat/MailHandler.php on line 54
+[19-Mar-2017 15:23:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hesle203/public_html/oguiadoecommerce.com.br/bat/MailHandler.php on line 54
+[19-Mar-2017 15:33:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'values' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/hesle203/public_html/oguiadoecommerce.com.br/bat/MailHandler.php on line 53
+[19-Mar-2017 15:50:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hesle203/public_html/oguiadoecommerce.com.br/bat/MailHandler.php on line 54
+[19-Mar-2017 16:27:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/hesle203/public_html/oguiadoecommerce.com.br/bat/MailHandler.php on line 54

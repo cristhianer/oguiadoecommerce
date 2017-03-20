@@ -1,0 +1,8 @@
+[19-Mar-2017 19:46:53 America/Chicago] PHP Deprecated:  Function ereg() is deprecated in /home/hesle203/public_html/oguiadoecommerce.com.br/email.php on line 93
+[19-Mar-2017 19:48:56 America/Chicago] PHP Deprecated:  Function ereg() is deprecated in /home/hesle203/public_html/oguiadoecommerce.com.br/email.php on line 93
+[19-Mar-2017 19:48:56 America/Chicago] PHP Warning:  ereg() expects at least 2 parameters, 1 given in /home/hesle203/public_html/oguiadoecommerce.com.br/email.php on line 93
+[19-Mar-2017 20:38:36 America/Chicago] PHP Deprecated:  Function ereg() is deprecated in /home/hesle203/public_html/oguiadoecommerce.com.br/email.php on line 93
+[19-Mar-2017 20:38:58 America/Chicago] PHP Deprecated:  Function ereg() is deprecated in /home/hesle203/public_html/oguiadoecommerce.com.br/email.php on line 93
+[19-Mar-2017 20:42:24 America/Chicago] PHP Deprecated:  Function ereg() is deprecated in /home/hesle203/public_html/oguiadoecommerce.com.br/email.php on line 104
+[19-Mar-2017 20:45:37 America/Chicago] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/hesle203/public_html/oguiadoecommerce.com.br/email.php on line 93
+[19-Mar-2017 21:31:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/hesle203/public_html/oguiadoecommerce.com.br/email.php on line 97
