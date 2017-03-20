@@ -15,4 +15,11 @@ $(document).ready(function () {
                 })
     });
 
+
+     $(".post_1").click(function(){
+     	console.log("oi");
+     	window.open("b","_self")
+
+     });
+
 });
