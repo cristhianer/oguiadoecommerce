@@ -37,7 +37,7 @@
     <header>  
       <div class="container top-sect">
         <div> 
-          <a href="index.html"><img src="images/logo_guia_do_e_commerce.png" height="165" width="300"/></a>
+          <a href="index.html"><img src="images/logo_guia_do_e_commerce.png" class="logo_ecommerce"/></a>
             <div class="help-box text-right">
             </div>
         </div>
@@ -46,19 +46,35 @@
 
       <div id="stuck_container" class="stuck_container">
         <div class="container">   
-        <nav class="navbar navbar-default navbar-static-top pull-left">            
+        <nav class="navbar navbar-default navbar-static-top pull-left">
 
             <div class="">  
               <ul class="nav navbar-nav sf-menu" data-type="navbar">
-                <li class="active">
-                  <a href="index.html">HOME</a>
-                </li>              
                 <li>
-                  <a href="contato.php">CONTATO</a>
+                  <a href="http://oguiadoecommerce.com.br/index.html">HOME</a>
                 </li>
+                <li>
+                  <a href="http://oguiadoecommerce.com.br/contato.php">CONTATO</a>
+                </li>
+                <li class="dropdown">
+                  <a href="index-2.html">EBOOKS GRÁTIS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="http://oguiadoecommerce.com.br/landing.php">Aumente suas vendas com o marketing digital</a>
+                    </li>
+                    <li>
+                      <a href="http://oguiadoecommerce.com.br/landing2.php">Melhores práticas para criar um e-commerce ninja</a>                      
+                    </li>
+                     <li>
+                      <a href="http://oguiadoecommerce.com.br/landing3.php">10 Vantagens em ter uma loja virtual</a>  
+                     </li>                   
+                  </ul>
+                </li><!-- -->                
               </ul>                           
             </div>
         </nav>   
+
+
         <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
           <label class="search-form_label">
             <input class="search-form_input" type="text" name="s" autocomplete="off" placeholder=""/>
@@ -81,7 +97,7 @@
     <section class="ebookBanner" data-wow-duration='3s'>
         <div class="container">
           <h3 class="txt-pr">
-          Aumente suas vendas com o Marketing Digital 
+          Aumente suas vendas com o Marketing Digital
             <!--<small>
               TO OUR COMPANY!
             </small>-->
@@ -97,7 +113,7 @@
             </div>
             <div class="col-md-6 col-sm-12 ">
               <div class="ladingPageForm">
-              <h4 class="ladingTitle"> Faça o download grátis aqui!<br> Ebook "As grandes vantagens de um e-commerce." </h3>
+              <h4 class="ladingTitle"> Faça o download grátis aqui!<br> Ebook "Aumente suas vendas com o Marketing Digital" </h3>
               
 
  <?php
@@ -111,15 +127,16 @@
           <!--<h2 class="txt-pr"> wELCOME</h2>-->
           <div class="row">
             <div class="col-md-6 col-sm-12">
-              <h4 class="txt-pr">Pergunta de efeito</h4>
-              <p class="textMobileResponsive">
-                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+              <!--<h4 class="txt-pr">Pergunta de efeito</h4>-->
+              <p class="textMobileResponsive"><br/>
+                Muitos empreendedores vêem a internet como uma maneira mais fácil e econômica de vender, porém não é simplesmente colocar seu site no ar que seus clientes aparecerão, como um passe de mágica.<br/>Hoje o comercio eletrônico brasileiro é composto por 450 mil e-commerces ativos, de acordo com uma pesquisa realizada pela Big Data em 2015. 
+
               </p>
             </div>
             <div class="col-md-6 col-sm-12">
-            <h4 class="txt-pr">Pergunta de efeito</h4>
+            <h4 class="txt-pr"><br/>Você tem muitos concorrentes, não é mesmo?</h4>
               <p class="textMobileResponsive">
-                Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Por isso estamos aqui, nós vamos te ajudar a destacar o seu e-commerce e a DOBRAR SEUS LUCROS com o e-book "Aumente suas Vendas com o Marketing Digital".
               </p>
             </div>
           </div>
