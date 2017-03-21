@@ -8158,3 +8158,7 @@ button.close {
   height: 165px;
   width: 300px;
 }
+
+.post_1{
+  cursor:pointer;
+}

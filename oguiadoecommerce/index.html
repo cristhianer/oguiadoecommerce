@@ -53,7 +53,7 @@
     <header>  
       <div class="container top-sect">
         <div> 
-          <a href="index.html"><img src="images/logo_guia_do_e_commerce.png" height="165" width="300"/></a>
+          <a href="index.html"><img src="images/logo_guia_do_e_commerce.png" class="logo_ecommerce"/></a>
             <div class="help-box text-right">
             </div>
         </div>
@@ -63,17 +63,36 @@
       <div id="stuck_container" class="stuck_container">
         <div class="container">   
         <nav class="navbar navbar-default navbar-static-top pull-left">            
-
-            <div class="">  
+        <div class="">  
               <ul class="nav navbar-nav sf-menu" data-type="navbar">
-                <li class="active">
-                  <a href="index.html">HOME</a>
-                </li>              
                 <li>
-                  <a href="contato.php">CONTATO</a>
+                  <a href="http://oguiadoecommerce.com.br/index.html">HOME</a>
                 </li>
+                <li>
+                  <a href="http://oguiadoecommerce.com.br/contato.php">CONTATO</a>
+                </li>
+                <li class="dropdown">
+                  <a href="index-2.html">EBOOKS GRÁTIS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="http://oguiadoecommerce.com.br/landing.php">Aumente suas vendas com o marketing digital</a>
+                    </li>
+                    <li>
+                      <a href="http://oguiadoecommerce.com.br/landing2.php">Melhores práticas para criar um e-commerce ninja</a>                      
+                    </li>
+                    <li>
+                      <a href="http://oguiadoecommerce.com.br/landing3.php">10 Vantagens Em Ter Uma Loja Virtual</a>                      
+                    </li>
+                    
+                  </ul>
+                </li>                
+                <li>
+                  <a href="index-3.html">PROJECTS</a>
+                </li>
+                
               </ul>                           
             </div>
+
         </nav>   
         <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
           <label class="search-form_label">
@@ -95,9 +114,9 @@
       <section class="well well1 well1_ins1">
         <div class="camera_container">
           <div id="rotator">
-              <img height="54" src="images/page-1_slide1.jpg" width="" />
-              <img height="55" src="images/page-1_slide2.jpg" width="" />
-              <img height="69" src="images/page-1_slide3.jpg" width="" />
+              <img height="54" src="images/page-1_slide1.jpg" width="" onclick="window.location='http://oguiadoecommerce.com.br/landing.php';" class="post_1"/>
+             <img height="55" src="images/page-1_slide2.jpg" width="" onclick="window.location='http://oguiadoecommerce.com.br/landing2.php';" class="post_1"/>
+              <img height="69" src="images/page-1_slide3.jpg" width="" onclick="window.location='http://oguiadoecommerce.com.br/landing3.php';" class="post_1"/>
           </div>
           </div>
         </div>
@@ -106,32 +125,34 @@
           <div class="row">
             <div class="col-md-4 col-sm-12 col-xs-12">
               <div class="thumbnail thumb-shadow">
-                <a href="as-grandes-vantagens-de-se-ter-um-ecommerce.html"><img src="images/page-1_img1.jpg" alt=""></a>
+                <a href="as-grandes-vantagens-ecommerce.html"><img src="images/page-1_img1.jpg" alt=""></a>
                 <div class="caption bg2">
                   <h3>
                     E-commerce e suas vantagens
                   </h3>
+                 <a href="as-grandes-vantagens-ecommerce.html">
                   <div class="wrap">
                     <p>
                       Confira as grandes vantagens de se ter um e-commerce.
                     </p>
-                    <a href="as-grandes-vantagens-de-se-ter-um-ecommerce.html" class="btn-link fa-angle-right"></a>
+                  </a>
+                    <a href="as-grandes-vantagens-ecommerce.html" class="btn-link fa-angle-right"></a>
                   </div>  
                 </div>
               </div>              
             </div>
             <div class="col-md-8 col-sm-12 col-xs-12">
               <div class="thumbnail thumb-shadow">
-                <img src="images/page-1_img2.jpg" alt="">
+               <a href="seguranca-em-ecommerce.html"> <img src="images/page-1_img2.jpg" alt=""></a>
                 <div class="caption bg3">
                   <h3>
                     Sua loja virtual segura!
                   </h3>
                   <div class="wrap">
-                    <p class="thumb_ins1">
+                    <a href="seguranca-em-ecommerce.html"><p class="thumb_ins1">
                       Previna fraudes com dicas simples e rápidas.
-                    </p>
-                    <a href="#" class="btn-link fa-angle-right"></a>
+                    </p></a>
+                    <a href="seguranca-em-ecommerce.html" class="btn-link fa-angle-right"></a>
                   </div>  
                 </div>
               </div> 
@@ -227,7 +248,7 @@ Aqui você encontra notícias, artigos, ebooks, videos, entre outros.
             </strong>
             <p>
             </p>
-            <a href="#" class="btn btn-primary">Leia Mais <span class="fa-angle-right"></span></a>
+            <!--<a href="#" class="btn btn-primary">Leia Mais <span class="fa-angle-right"></span></a>-->
           </div>  
         </div>        
       </section>

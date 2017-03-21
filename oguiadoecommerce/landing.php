@@ -11,16 +11,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/landing.css" rel="stylesheet">    
 
     <!-- Links -->
     <link rel="stylesheet" href="css/camera.css">
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/google-map.css">
-    <link rel="stylesheet" href="css/landing.css">
-
-
-   
-
 
     <!--[if lt IE 9]>
     <div style=' clear: both; text-align:center; position: relative;'>
@@ -93,7 +89,7 @@
           <div class="row">
             <div class="col-md-6 col-sm-12">
               <p>
-              <img class="img-responsive ebookImg" src="images/como-fazer-um-ebook.png" alt="Ebook icon">
+              <img class="img-responsive ebookMarketingImg" src="images/marketingDigital.jpeg" alt="Aumente suas vendas com o Marketing Digital logo">
               <!-- <p>
                 Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p> -->
@@ -111,20 +107,19 @@
       
              </div>
           </div> <!-- .row-->
-          <br>
+          
           <!--<h2 class="txt-pr"> wELCOME</h2>-->
           <div class="row">
             <div class="col-md-6 col-sm-12">
               <h4 class="txt-pr">Pergunta de efeito</h4>
               <p class="textMobileResponsive">
-                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
               </p>
             </div>
             <div class="col-md-6 col-sm-12">
             <h4 class="txt-pr">Pergunta de efeito</h4>
               <p class="textMobileResponsive">
                 Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                <a href="#" class="btn-link l-h1 fa-angle-right"></a>
               </p>
             </div>
           </div>
