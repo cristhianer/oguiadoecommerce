@@ -7,16 +7,20 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Aumente suas vendas com o Marketing Digital</title>
+    <title>Melhores práticas para criar um e commerce ninja</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/landing.css" rel="stylesheet">    
 
     <!-- Links -->
     <link rel="stylesheet" href="css/camera.css">
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/google-map.css">
+    <link rel="stylesheet" href="css/landing.css">
+
+
+   
+
 
     <!--[if lt IE 9]>
     <div style=' clear: both; text-align:center; position: relative;'>
@@ -37,18 +41,17 @@
     <header>  
       <div class="container top-sect">
         <div> 
-          <a href="index.html"><img src="images/logo_guia_do_e_commerce.png" class="logo_ecommerce"/></a>
+          <a href="index.html"><img src="images/logo_guia_do_e_commerce.png" height="165" width="300"/></a>
             <div class="help-box text-right">
             </div>
         </div>
       </div>
 
 
-      <div id="stuck_container" class="stuck_container">
+     <div id="stuck_container" class="stuck_container">
         <div class="container">   
-        <nav class="navbar navbar-default navbar-static-top pull-left">
-
-            <div class="">  
+        <nav class="navbar navbar-default navbar-static-top pull-left">            
+        <div class="">  
               <ul class="nav navbar-nav sf-menu" data-type="navbar">
                 <li>
                   <a href="http://oguiadoecommerce.com.br/index.html">HOME</a>
@@ -57,7 +60,7 @@
                   <a href="http://oguiadoecommerce.com.br/contato.php">CONTATO</a>
                 </li>
                 <li class="dropdown">
-                  <a href="#othersEbooks">EBOOKS GRÁTIS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                  <a href="index-2.html">EBOOKS GRÁTIS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                   <ul class="dropdown-menu">
                     <li>
                       <a href="http://oguiadoecommerce.com.br/landing.php">Aumente suas vendas com o marketing digital</a>
@@ -65,14 +68,17 @@
                     <li>
                       <a href="http://oguiadoecommerce.com.br/landing2.php">Melhores práticas para criar um e-commerce ninja</a>                      
                     </li>
-                     <li>
-                      <a href="http://oguiadoecommerce.com.br/landing3.php">10 Vantagens em ter uma loja virtual</a>  
-                     </li>                   
+                    <li>
+                      <a href="http://oguiadoecommerce.com.br/landing3.php">10 Vantagens Em Ter Uma Loja Virtual</a>                      
+                    </li>
+                    
                   </ul>
-                </li><!-- -->                
+                </li>                
               </ul>                           
             </div>
+
         </nav>   
+
 
 
         <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
@@ -97,7 +103,7 @@
     <section class="ebookBanner" data-wow-duration='3s'>
         <div class="container">
           <h3 class="txt-pr">
-          Aumente suas vendas com o Marketing Digital
+          Melhores práticas para criar um E-commerce ninja
             <!--<small>
               TO OUR COMPANY!
             </small>-->
@@ -105,7 +111,7 @@
           <div class="row">
             <div class="col-md-6 col-sm-12">
               <p>
-              <img class="img-responsive ebookMarketingImg" src="images/marketingDigital.jpeg" alt="Aumente suas vendas com o Marketing Digital logo">
+              <img class="img-responsive ebookImg" src="images/como-fazer-um-ebook.png" alt="Ebook icon">
               <!-- <p>
                 Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p> -->
@@ -113,33 +119,18 @@
             </div>
             <div class="col-md-6 col-sm-12 ">
               <div class="ladingPageForm">
-              <h4 class="ladingTitle"> Faça o download grátis aqui!<br> Ebook "Aumente suas vendas com o Marketing Digital" </h3>
+              <h4 class="ladingTitle"> Faça o download grátis aqui!<br> Ebook "Melhores práticas para criar um e commerce ninja." </h3>
               
 
  <?php
-        include("email_form_landing1.php")
+        include("email_form_landing2.php")
         ?>
 
       
              </div>
           </div> <!-- .row-->
-          
+          <br>
           <!--<h2 class="txt-pr"> wELCOME</h2>-->
-          <div class="row">
-            <div class="col-md-6 col-sm-12">
-              <!--<h4 class="txt-pr">Pergunta de efeito</h4>-->
-              <p class="textMobileResponsive"><br/>
-                Muitos empreendedores vêem a internet como uma maneira mais fácil e econômica de vender, porém não é simplesmente colocar seu site no ar que seus clientes aparecerão, como um passe de mágica.<br/>Hoje o comercio eletrônico brasileiro é composto por 450 mil e-commerces ativos, de acordo com uma pesquisa realizada pela Big Data em 2015. 
-
-              </p>
-            </div>
-            <div class="col-md-6 col-sm-12">
-            <h4 class="txt-pr"><br/>Você tem muitos concorrentes, não é mesmo?</h4>
-              <p class="textMobileResponsive">
-                Por isso estamos aqui, nós vamos te ajudar a destacar o seu e-commerce e a DOBRAR SEUS LUCROS com o e-book "Aumente suas Vendas com o Marketing Digital".
-              </p>
-            </div>
-          </div>
           
         </div> <!-- .container -->
       </section>
@@ -150,27 +141,34 @@
           <div class="row">
             <div class="col-md-6 col-sm-12">
               <div class="thumbnail thumb-shadow">
-                <a href="landing2.php"><img src="images/melhoresPraticas3.jpg" alt="Melhores práticas para criar um E-commerce ninja - chamada" class="img-responsive"/>
+                <img src="images/page-1_img6_2.jpg" alt="" onclick="window.location='http://oguiadoecommerce.com.br/landing3.php';" style="cursor:pointer;">
                 <div class="caption bg3 capt_hover1">
                   <h3>
-                    Melhores práticas para criar um E-commerce ninja
+                    EBOOK 10 Vantagens Em Ter Uma Loja Virtual
                   </h3>
                   <div class="wrap">
-                    
-                  </div></a>  
+                    <p>
+                      EBOOK 10 Vantagens Em Ter Uma Loja Virtual
+                    </p>
+                    <a href="landing3.php" class="btn-link fa-angle-right"></a>
+                  </div>  
                 </div> <!-- .caption -->
               </div> <!-- shadow -->     
 
             </div>
             <div class="col-md-6 col-sm-12">
               <div class="thumbnail thumb-shadow">
-                <a href="landing3.php"><img src="images/ebook10.jpeg" alt="10 vantagens em ter uma loja virtual- chamada" class="img-responsive"/>
+                <img src="images/page-1_img6_3.jpg" alt="" onclick="window.location='http://oguiadoecommerce.com.br/landing.php';" style="cursor:pointer;">
                 <div class="caption bg3 capt_hover1">
                   <h3>
-                    10 vantagens em ter uma loja virtual 
+                    AS GRANDES VANTAGENS DE UM E-COMMERCE
                   </h3>
-                  <div class="wrap">    
-                  </div></a>
+                  <div class="wrap">
+                    <p>
+                      AS GRANDES VANTAGENS DE UM E-COMMERCE
+                    </p>
+                    <a href="landing.php" class="btn-link fa-angle-right"></a>
+                  </div>  
                 </div> <!-- .caption -->
               </div> <!-- shadow -->     
             </div>

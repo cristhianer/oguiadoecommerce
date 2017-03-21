@@ -1,4 +1,4 @@
-<form name="form1" method="post" action="email_landing1.php" class='contact-form'>
+<form name="form1" method="post" action="email_landing2.php" class='contact-form'>
   <table width="100" border="0" cellspacing="0" cellpadding="0" align="center">
     <tr class="name"> 
       <td valign="top" width="100" nowrap><font class="texto">Nome:</font></td>

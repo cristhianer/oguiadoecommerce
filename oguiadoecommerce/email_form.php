@@ -7,9 +7,9 @@
       </td>
     </tr>
    <tr class="name"> 
-      <td valign="top" width="100" nowrap><font class="texto">Sobre Nome:</font></td>
+      <td valign="top" width="100" nowrap><font class="texto">Sobrenome:</font></td>
       <td> 
-        <input class="form_campos" type="text" name="sobrenome" size="20">
+        <input class="form_campos" type="text" name="sobrenome" size="34">
       </td>
     </tr>
    <!-- <tr bgcolor="#F4F4F4"> 
