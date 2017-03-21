@@ -1,3 +1,7 @@
 .post_1{
 	cursor:pointer;
 }
+
+.thumbnail .caption .wrap a {
+  float: none !important;
+}

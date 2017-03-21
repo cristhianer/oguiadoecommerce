@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Melhores práticas para criar um e commerce ninja</title>
+    <title>Melhores práticas para criar um E-commerce ninja</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -57,10 +57,10 @@
                   <a href="http://oguiadoecommerce.com.br/index.html">HOME</a>
                 </li>
                 <li>
-                  <a href="http://oguiadoecommerce.com.br/contato.php">CONTATO</a>
+                  <a href="http://oguiadoecommerce.com.br/contato.php">CADASTRO</a>
                 </li>
                 <li class="dropdown">
-                  <a href="index-2.html">EBOOKS GRÁTIS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                  <a href="#othersEbooks">EBOOKS GRÁTIS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                   <ul class="dropdown-menu">
                     <li>
                       <a href="http://oguiadoecommerce.com.br/landing.php">Aumente suas vendas com o marketing digital</a>
@@ -111,7 +111,7 @@
           <div class="row">
             <div class="col-md-6 col-sm-12">
               <p>
-              <img class="img-responsive ebookImg" src="images/como-fazer-um-ebook.png" alt="Ebook icon">
+              <img class="img-responsive" src="images/melhoresPraticas.jpeg" alt="Melhores práticas para criar um E-commerce ninja - logo">
               <!-- <p>
                 Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p> -->
@@ -139,22 +139,17 @@
         <div class="container">
           <h2 class="txt-pr"><small>BAIXE OS OUTROS EBOOKS!</small></h2>
           <div class="row">
-            <div class="col-md-6 col-sm-12">
+              <div class="col-md-6 col-sm-12">
               <div class="thumbnail thumb-shadow">
-                <img src="images/page-1_img6_2.jpg" alt="" onclick="window.location='http://oguiadoecommerce.com.br/landing3.php';" style="cursor:pointer;">
+                <a href="landing3.php"><img src="images/ebook10.jpeg" alt="10 vantagens em ter uma loja virtual- chamada" class="img-responsive"/>
                 <div class="caption bg3 capt_hover1">
                   <h3>
-                    EBOOK 10 Vantagens Em Ter Uma Loja Virtual
+                    10 vantagens em ter uma loja virtual 
                   </h3>
-                  <div class="wrap">
-                    <p>
-                      EBOOK 10 Vantagens Em Ter Uma Loja Virtual
-                    </p>
-                    <a href="landing3.php" class="btn-link fa-angle-right"></a>
-                  </div>  
+                  <div class="wrap">    
+                  </div></a>
                 </div> <!-- .caption -->
               </div> <!-- shadow -->     
-
             </div>
             <div class="col-md-6 col-sm-12">
               <div class="thumbnail thumb-shadow">
@@ -164,10 +159,10 @@
                     AS GRANDES VANTAGENS DE UM E-COMMERCE
                   </h3>
                   <div class="wrap">
-                    <p>
+                    <!--<p>
                       AS GRANDES VANTAGENS DE UM E-COMMERCE
                     </p>
-                    <a href="landing.php" class="btn-link fa-angle-right"></a>
+                    <a href="landing.php" class="btn-link fa-angle-right">--></a>
                   </div>  
                 </div> <!-- .caption -->
               </div> <!-- shadow -->     
